@@ -1,5 +1,7 @@
 {
   "item.mangotechores.tin_ingot": "Tin Ingot",
 
+  "block.mangotechores.tin_ore": "Tin Ore",
+
   "itemGroup.mangotechtab":"Mango Tech Ores/Ingots"
 }
