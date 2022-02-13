@@ -1,7 +1,12 @@
 {
   "item.mangotechores.tin_ingot": "Tin Ingot",
+  "item.mangotechores.bronze_ingot": "Bronze Ingot",
+  "item.mangotechores.sapphire": "Sapphire",
+  "item.mangotechores.sapphire_pickaxe": "Sapphire Pickaxe",
 
   "block.mangotechores.tin_ore": "Tin Ore",
 
-  "itemGroup.mangotechtab":"Mango Tech Ores/Ingots"
+  "itemGroup.mangotechtab":"Mango Tech Ores",
+
+  "itemGroup.mangotechtab2":"Mango Tech Tools"
 }
