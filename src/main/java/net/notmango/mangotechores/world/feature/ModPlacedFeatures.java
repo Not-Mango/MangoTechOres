@@ -1,0 +1,13 @@
+package net.notmango.mangotechores.world.feature;
+
+import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.world.level.levelgen.VerticalAnchor;
+import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
+
+public class ModPlacedFeatures {
+
+    public static final PlacedFeature APATITE_ORE_PLACED = PlacementUtils.register("apatite_ore_placed",
+            ModConfiguredFeature.APATITE_ORE.placed(ModOrePlacement.commonOrePlacement(6,
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-60), VerticalAnchor.aboveBottom(120)))));
+}
