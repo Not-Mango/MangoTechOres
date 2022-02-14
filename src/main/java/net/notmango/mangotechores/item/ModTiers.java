@@ -6,7 +6,11 @@ import net.minecraftforge.common.ForgeTier;
 
 public class ModTiers {
 
-    public static final ForgeTier BRONZE = new ForgeTier(2,500,1f,
+    public static final ForgeTier SAPPHIRE = new ForgeTier(2,500,1f,
             3f, 10, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(ModItems.SAPPHIRE.get()));
+
+    public static final ForgeTier RUBY = new ForgeTier(2,500,1f,
+            3f, 10, BlockTags.NEEDS_IRON_TOOL,
+            () -> Ingredient.of(ModItems.RUBY.get()));
 }
