@@ -1,12 +1,14 @@
 package net.notmango.mangotechores.item;
 
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.core.NonNullList;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.notmango.mangotechores.MangoTechOres;
+
+import javax.annotation.Nonnull;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -38,7 +40,23 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> APATITE_PICKAXE = ITEMS.register("apatite_pickaxe",
-            () -> new PickaxeItem(ModTiers.APATITE,2,3f,
+            () -> new PickaxeItem(ModTiers.APATITE,0,3f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
+
+    public static final RegistryObject<Item> APATITE_SHOVEL = ITEMS.register("apatite_shovel",
+            () -> new ShovelItem(ModTiers.APATITE, 0, 1f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
+
+    public static final RegistryObject<Item> APATITE_AXE = ITEMS.register("apatite_axe",
+            () -> new AxeItem(ModTiers.APATITE, 4, -7f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
+
+    public static final RegistryObject<Item> APATITE_HOE = ITEMS.register("apatite_hoe",
+            () -> new HoeItem(ModTiers.APATITE, 0, 0f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
+
+    public static final RegistryObject<Item> APATITE_SWORD = ITEMS.register("apatite_sword",
+            () -> new SwordItem(ModTiers.APATITE, 3, 2f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe",

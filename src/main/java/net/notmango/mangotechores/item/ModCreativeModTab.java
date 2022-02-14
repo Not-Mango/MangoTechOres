@@ -1,8 +1,8 @@
 package net.notmango.mangotechores.item;
 
+import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.notmango.mangotechores.block.ModBlocks;
 
 public class ModCreativeModTab {
     public static final CreativeModeTab MANGO_TAB = new CreativeModeTab("mangotechtab") {
