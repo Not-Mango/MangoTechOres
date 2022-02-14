@@ -24,14 +24,14 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY_INGOT = ITEMS.register("ruby_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
 
-    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
+    public static final RegistryObject<Item> AQUAMARINE = ITEMS.register("aquamarine",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
 
     public static final RegistryObject<Item> APATITE = ITEMS.register("apatite",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
 
-    public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
-            () -> new PickaxeItem(ModTiers.SAPPHIRE,2,3f,
+    public static final RegistryObject<Item> AQUAMARINE_PICKAXE = ITEMS.register("aquamarine_pickaxe",
+            () -> new PickaxeItem(ModTiers.AQUAMARINE,2,3f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> APATITE_PICKAXE = ITEMS.register("apatite_pickaxe",
