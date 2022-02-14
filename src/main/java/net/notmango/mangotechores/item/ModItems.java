@@ -40,23 +40,23 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> APATITE_PICKAXE = ITEMS.register("apatite_pickaxe",
-            () -> new PickaxeItem(ModTiers.APATITE,0,3f,
+            () -> new PickaxeItem(ModTiers.APATITE,1,-2.8f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> APATITE_SHOVEL = ITEMS.register("apatite_shovel",
-            () -> new ShovelItem(ModTiers.APATITE, 0, 1f,
+            () -> new ShovelItem(ModTiers.APATITE, 1.5f, -3f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> APATITE_AXE = ITEMS.register("apatite_axe",
-            () -> new AxeItem(ModTiers.APATITE, 4, -7f,
+            () -> new AxeItem(ModTiers.APATITE, 6, -3.1f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> APATITE_HOE = ITEMS.register("apatite_hoe",
-            () -> new HoeItem(ModTiers.APATITE, 0, 0f,
+            () -> new HoeItem(ModTiers.APATITE, -2, -1f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> APATITE_SWORD = ITEMS.register("apatite_sword",
-            () -> new SwordItem(ModTiers.APATITE, 3, 2f,
+            () -> new SwordItem(ModTiers.APATITE, 3, -2.4f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe",

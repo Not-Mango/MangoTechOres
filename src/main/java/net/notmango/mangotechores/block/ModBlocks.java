@@ -4,8 +4,11 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.OreBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -23,7 +26,25 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1f).requiresCorrectToolForDrops()),
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f, 3f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModTab.MANGO_TAB);
+
+    public static final RegistryObject<Block> APATITE_ORE = registerBlock("apatite_ore",
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f, 3f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModTab.MANGO_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_APATITE_ORE = registerBlock("deepslate_apatite_ore",
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).color(MaterialColor.DEEPSLATE)
+                    .strength(3f, 4.5f).sound(SoundType.DEEPSLATE)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModTab.MANGO_TAB);
+
+    public static final RegistryObject<Block> APATITE_BLOCK = registerBlock("apatite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()),
             ModCreativeModTab.MANGO_TAB);
 
 

@@ -15,6 +15,9 @@
   "item.mangotechores.topaz_pickaxe": "Topaz Pickaxe",
 
   "block.mangotechores.tin_ore": "Tin Ore",
+  "block.mangotechores.apatite_ore": "Apatite Ore",
+  "block.mangotechores.deepslate_apatite_ore": "Deepslate Apatite Ore",
+  "block.mangotechores.apatite_block": "Apatite Block",
 
   "itemGroup.mangotechtab":"Mango Tech Ores",
   "itemGroup.mangotechtab2":"Mango Tech Tools"
