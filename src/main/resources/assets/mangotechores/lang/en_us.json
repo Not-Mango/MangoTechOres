@@ -2,8 +2,11 @@
   "item.mangotechores.tin_ingot": "Tin Ingot",
   "item.mangotechores.tin_dust": "Tin Dust",
   "item.mangotechores.bronze_ingot": "Bronze Ingot",
+  "item.mangotechores.ruby_ingot": "Ruby Ingot",
   "item.mangotechores.sapphire": "Sapphire",
+  "item.mangotechores.ruby": "Ruby",
   "item.mangotechores.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.mangotechores.ruby_pickaxe": "Ruby Pickaxe",
 
   "block.mangotechores.tin_ore": "Tin Ore",
 

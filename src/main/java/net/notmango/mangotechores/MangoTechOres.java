@@ -15,7 +15,9 @@ import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.notmango.mangotechores.block.ModBlocks;
+import net.notmango.mangotechores.containers.ModContainers;
 import net.notmango.mangotechores.item.ModItems;
+import net.notmango.mangotechores.tileentities.ModTileEntities;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -35,6 +37,10 @@ public class MangoTechOres
 
         ModBlocks.register(eventBus);
         ModItems.register(eventBus);
+
+
+        ModTileEntities.register(eventBus);
+        ModContainers.register(eventBus);
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading

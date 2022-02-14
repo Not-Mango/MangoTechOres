@@ -21,10 +21,20 @@ public class ModItems {
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
 
+    public static final RegistryObject<Item> RUBY_INGOT = ITEMS.register("ruby_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
+
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
 
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
+
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
+            () -> new PickaxeItem(ModTiers.BRONZE,2,3f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
+
+    public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
             () -> new PickaxeItem(ModTiers.BRONZE,2,3f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
