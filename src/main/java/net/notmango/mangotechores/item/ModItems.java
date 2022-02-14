@@ -30,12 +30,19 @@ public class ModItems {
     public static final RegistryObject<Item> APATITE = ITEMS.register("apatite",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
 
+    public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
+
     public static final RegistryObject<Item> AQUAMARINE_PICKAXE = ITEMS.register("aquamarine_pickaxe",
             () -> new PickaxeItem(ModTiers.AQUAMARINE,2,3f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static final RegistryObject<Item> APATITE_PICKAXE = ITEMS.register("apatite_pickaxe",
             () -> new PickaxeItem(ModTiers.APATITE,2,3f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
+
+    public static final RegistryObject<Item> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe",
+            () -> new PickaxeItem(ModTiers.TOPAZ,2,3f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static void register(IEventBus eventBus) {
