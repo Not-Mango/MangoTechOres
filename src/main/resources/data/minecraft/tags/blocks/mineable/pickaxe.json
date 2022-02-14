@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "mangotechores:tin_ore"
+    "mangotechores:tin_ore",
+    "mangotechores:apatite_ore",
+    "mangotechores:deepslate_apatite_ore",
+    "mangotechores:apatite_block"
   ]
 }

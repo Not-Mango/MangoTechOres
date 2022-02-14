@@ -24,7 +24,6 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, MangoTechOres.MOD_ID);
 
-
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f, 3f)
                     .requiresCorrectToolForDrops()),
