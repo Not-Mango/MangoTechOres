@@ -27,15 +27,15 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
 
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
+    public static final RegistryObject<Item> APATITE = ITEMS.register("apatite",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_TAB)));
 
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
             () -> new PickaxeItem(ModTiers.SAPPHIRE,2,3f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
-    public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
-            () -> new PickaxeItem(ModTiers.RUBY,2,3f,
+    public static final RegistryObject<Item> APATITE_PICKAXE = ITEMS.register("apatite_pickaxe",
+            () -> new PickaxeItem(ModTiers.APATITE,2,3f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TAB2)));
 
     public static void register(IEventBus eventBus) {
