@@ -15,7 +15,7 @@ public class ModCreativeModTab {
     public static final CreativeModeTab MANGO_TAB2 = new CreativeModeTab("mangotechtab2") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.TIN_ORE.get());
+            return new ItemStack(ModItems.RUBY_PICKAXE.get());
         }
     };
 }
