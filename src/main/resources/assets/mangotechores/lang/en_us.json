@@ -3,20 +3,28 @@
   "item.mangotechores.tin_dust": "Tin Dust",
   "item.mangotechores.bronze_ingot": "Bronze Ingot",
   "item.mangotechores.ruby_ingot": "Ruby Ingot",
+
   "item.mangotechores.aquamarine": "Aquamarine",
   "item.mangotechores.apatite": "Apatite",
   "item.mangotechores.topaz": "Topaz",
+
   "item.mangotechores.aquamarine_pickaxe": "Aquamarine Pickaxe",
   "item.mangotechores.aquamarine_shovel": "Aquamarine Shovel",
   "item.mangotechores.aquamarine_axe": "Aquamarine Axe",
   "item.mangotechores.aquamarine_hoe": "Aquamarine Hoe",
   "item.mangotechores.aquamarine_sword": "Aquamarine Sword",
+
   "item.mangotechores.apatite_pickaxe": "Apatite Pickaxe",
   "item.mangotechores.apatite_shovel": "Apatite Shovel",
   "item.mangotechores.apatite_axe": "Apatite Axe",
   "item.mangotechores.apatite_hoe": "Apatite Hoe",
   "item.mangotechores.apatite_sword": "Apatite Sword",
+
   "item.mangotechores.topaz_pickaxe": "Topaz Pickaxe",
+  "item.mangotechores.topaz_shovel": "Topaz Shovel",
+  "item.mangotechores.topaz_axe": "Topaz Axe",
+  "item.mangotechores.topaz_hoe": "Topaz Hoe",
+  "item.mangotechores.topaz_sword": "Topaz Sword",
 
   "item.mangotechores.aquamarine_helmet" : "Aquamarine Helmet",
   "item.mangotechores.aquamarine_chestplate" : "Aquamarine Chestplate",
@@ -24,12 +32,18 @@
   "item.mangotechores.aquamarine_boots" : "Aquamarine Boots",
 
   "block.mangotechores.tin_ore": "Tin Ore",
+  
   "block.mangotechores.apatite_ore": "Apatite Ore",
   "block.mangotechores.deepslate_apatite_ore": "Deepslate Apatite Ore",
   "block.mangotechores.apatite_block": "Apatite Block",
+  
   "block.mangotechores.aquamarine_ore": "Aquamarine Ore",
   "block.mangotechores.deepslate_aquamarine_ore": "Deepslate Aquamarine Ore",
   "block.mangotechores.aquamarine_block": "Aquamarine Block",
+
+  "block.mangotechores.topaz_ore": "Topaz Ore",
+  "block.mangotechores.deepslate_topaz_ore": "Deepslate Topaz Ore",
+  "block.mangotechores.topaz_block": "Topaz Block",
 
   "itemGroup.mangotechtab":"Mango Tech Blocks",
   "itemGroup.mangotechtab2":"Mango Tech Ores",

@@ -76,8 +76,24 @@ public class ModItems {
             () -> new HoeItem(ModTiers.AQUAMARINE, -2, -1f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
 
+    public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword",
+            () -> new SwordItem(ModTiers.TOPAZ, 3, -2.4f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
     public static final RegistryObject<Item> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe",
-            () -> new PickaxeItem(ModTiers.TOPAZ,2,3f,
+            () -> new PickaxeItem(ModTiers.TOPAZ,1,-2.8f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> TOPAZ_AXE = ITEMS.register("topaz_axe",
+            () -> new AxeItem(ModTiers.TOPAZ, 6, -3.1f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel",
+            () -> new ShovelItem(ModTiers.TOPAZ, 1.5f, -3f,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> TOPAZ_HOE = ITEMS.register("topaz_hoe",
+            () -> new HoeItem(ModTiers.TOPAZ, -2, -1f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
 
     public static final RegistryObject<Item> AQUAMARINE_HELMET = ITEMS.register("aquamarine_helmet",
