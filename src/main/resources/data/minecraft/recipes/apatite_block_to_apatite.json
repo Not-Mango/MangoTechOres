@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mangotechores:apatite_block"
+    }
+  ],
+  "result": {
+    "item": "mangotechores:apatite",
+    "count": 9
+  }
+}

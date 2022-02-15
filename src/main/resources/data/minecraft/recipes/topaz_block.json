@@ -1,19 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " X ",
-    " X ",
-    " # "
+    "XXX",
+    "XXX",
+    "XXX"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
+
     "X": {
       "item": "mangotechores:topaz"
     }
   },
   "result": {
-    "item": "mangotechores:topaz_sword"
+    "item": "mangotechores:topaz_block"
   }
 }

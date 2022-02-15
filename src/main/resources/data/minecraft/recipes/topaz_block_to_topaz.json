@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mangotechores:topaz_block"
+    }
+  ],
+  "result": {
+    "item": "mangotechores:topaz",
+    "count": 9
+  }
+}

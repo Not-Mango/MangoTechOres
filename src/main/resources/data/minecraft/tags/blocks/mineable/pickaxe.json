@@ -2,8 +2,17 @@
   "replace": false,
   "values": [
     "mangotechores:tin_ore",
+
     "mangotechores:apatite_ore",
     "mangotechores:deepslate_apatite_ore",
-    "mangotechores:apatite_block"
+    "mangotechores:apatite_block",
+    
+    "mangotechores:aquamarine_ore",
+    "mangotechores:deepslate_aquamarine_ore",
+    "mangotechores:aquamarine_block",
+    
+    "mangotechores:topaz_ore",
+    "mangotechores:deepslate_topaz_ore",
+    "mangotechores:topaz_block"
   ]
 }
