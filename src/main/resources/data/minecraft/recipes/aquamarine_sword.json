@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XXX",
-    " # ",
+    " X ",
+    " X ",
     " # "
   ],
   "key": {
@@ -10,10 +10,10 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "mangotechores:sapphire"
+      "item": "mangotechores:aquamarine"
     }
   },
   "result": {
-    "item": "mangotechores:sapphire_pickaxe"
+    "item": "mangotechores:aquamarine_sword"
   }
 }
