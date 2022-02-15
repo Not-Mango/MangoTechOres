@@ -1,6 +1,7 @@
 package net.notmango.mangotechores.item;
 
 import net.minecraft.core.NonNullList;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -78,6 +79,23 @@ public class ModItems {
     public static final RegistryObject<Item> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe",
             () -> new PickaxeItem(ModTiers.TOPAZ,2,3f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> AQUAMARINE_HELMET = ITEMS.register("aquamarine_helmet",
+            () -> new ArmorItem(ModArmorMaterials.AQUAMARINE, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> AQUAMARINE_CHESTPLATE = ITEMS.register("aquamarine_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.AQUAMARINE, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> AQUAMARINE_LEGGINGS = ITEMS.register("aquamarine_leggings",
+            () -> new ArmorItem(ModArmorMaterials.AQUAMARINE, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> AQUAMARINE_BOOTS = ITEMS.register("aquamarine_boots",
+            () -> new ArmorItem(ModArmorMaterials.AQUAMARINE, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

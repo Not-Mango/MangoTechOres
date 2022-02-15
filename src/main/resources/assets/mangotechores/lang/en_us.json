@@ -18,6 +18,11 @@
   "item.mangotechores.apatite_sword": "Apatite Sword",
   "item.mangotechores.topaz_pickaxe": "Topaz Pickaxe",
 
+  "item.mangotechores.aquamarine_helmet" : "Aquamarine Helmet",
+  "item.mangotechores.aquamarine_chestplate" : "Aquamarine Chestplate",
+  "item.mangotechores.aquamarine_leggings" : "Aquamarine Leggings",
+  "item.mangotechores.aquamarine_boots" : "Aquamarine Boots",
+
   "block.mangotechores.tin_ore": "Tin Ore",
   "block.mangotechores.apatite_ore": "Apatite Ore",
   "block.mangotechores.deepslate_apatite_ore": "Deepslate Apatite Ore",
