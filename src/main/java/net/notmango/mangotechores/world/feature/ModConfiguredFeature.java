@@ -22,9 +22,17 @@ public class ModConfiguredFeature {
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_AQUAMARINE_ORE.get()
                     .defaultBlockState()));
 
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_TOPAZ_ORE = List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TOPAZ_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TOPAZ_ORE.get()
+                    .defaultBlockState()));
+
     public static final ConfiguredFeature<?, ?> APATITE_ORE = FeatureUtils.register("apatite_ore",
             Feature.ORE.configured(new OreConfiguration(OVERWORLD_APATITE_ORE, 9)));
 
     public static final ConfiguredFeature<?, ?> AQUAMARINE_ORE = FeatureUtils.register("aquamarine_ore",
             Feature.ORE.configured(new OreConfiguration(OVERWORLD_AQUAMARINE_ORE, 9)));
+
+    public static final ConfiguredFeature<?, ?> TOPAZ_ORE = FeatureUtils.register("topaz_ore",
+            Feature.ORE.configured(new OreConfiguration(OVERWORLD_TOPAZ_ORE, 9)));
 }

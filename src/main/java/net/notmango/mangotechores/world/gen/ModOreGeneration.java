@@ -16,5 +16,6 @@ public class ModOreGeneration {
 
         base.add(() -> ModPlacedFeatures.APATITE_ORE_PLACED);
         base.add(() -> ModPlacedFeatures.AQUAMARINE_ORE_PLACED);
+        base.add(() -> ModPlacedFeatures.TOPAZ_ORE_PLACED);
     }
 }
