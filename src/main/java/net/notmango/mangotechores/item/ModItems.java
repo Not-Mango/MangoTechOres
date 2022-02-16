@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.notmango.mangotechores.MangoTechOres;
+import net.notmango.mangotechores.item.custom.ModArmorItem;
 
 import javax.annotation.Nonnull;
 
@@ -96,20 +97,20 @@ public class ModItems {
             () -> new HoeItem(ModTiers.TOPAZ, -2, -1f,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
 
-    public static final RegistryObject<Item> AQUAMARINE_HELMET = ITEMS.register("aquamarine_helmet",
-            () -> new ArmorItem(ModArmorMaterials.AQUAMARINE, EquipmentSlot.HEAD,
+    public static final RegistryObject<Item> APATITE_HELMET = ITEMS.register("apatite_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.APATITE, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
 
-    public static final RegistryObject<Item> AQUAMARINE_CHESTPLATE = ITEMS.register("aquamarine_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.AQUAMARINE, EquipmentSlot.CHEST,
+    public static final RegistryObject<Item> APATITE_CHESTPLATE = ITEMS.register("apatite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.APATITE, EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
 
-    public static final RegistryObject<Item> AQUAMARINE_LEGGINGS = ITEMS.register("aquamarine_leggings",
-            () -> new ArmorItem(ModArmorMaterials.AQUAMARINE, EquipmentSlot.LEGS,
+    public static final RegistryObject<Item> APATITE_LEGGINGS = ITEMS.register("apatite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.APATITE, EquipmentSlot.LEGS,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
 
-    public static final RegistryObject<Item> AQUAMARINE_BOOTS = ITEMS.register("aquamarine_boots",
-            () -> new ArmorItem(ModArmorMaterials.AQUAMARINE, EquipmentSlot.FEET,
+    public static final RegistryObject<Item> APATITE_BOOTS = ITEMS.register("apatite_boots",
+            () -> new ArmorItem(ModArmorMaterials.APATITE, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
 
 

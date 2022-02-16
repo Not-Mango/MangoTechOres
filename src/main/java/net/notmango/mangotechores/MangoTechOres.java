@@ -16,6 +16,7 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.notmango.mangotechores.block.ModBlocks;
 import net.notmango.mangotechores.containers.ModContainers;
+import net.notmango.mangotechores.enchantment.ModEnchantment;
 import net.notmango.mangotechores.item.ModItems;
 import net.notmango.mangotechores.tileentities.ModTileEntities;
 import org.apache.logging.log4j.LogManager;
@@ -35,9 +36,10 @@ public class MangoTechOres
         FMLJavaModLoadingContext fmlJavaModLoadingContext = FMLJavaModLoadingContext.get();
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModBlocks.register(eventBus);
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
+        ModEnchantment.register(eventBus);
 
         ModTileEntities.register(eventBus);
         ModContainers.register(eventBus);

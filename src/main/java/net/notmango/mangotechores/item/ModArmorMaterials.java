@@ -12,8 +12,8 @@ import net.notmango.mangotechores.MangoTechOres;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    AQUAMARINE("aquamarine", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
-        return Ingredient.of(ModItems.AQUAMARINE.get());
+    APATITE("apatite", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+        return Ingredient.of(ModItems.APATITE.get());
     });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
