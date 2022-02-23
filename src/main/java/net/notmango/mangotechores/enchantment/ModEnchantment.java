@@ -16,7 +16,7 @@ public class ModEnchantment {
     public static RegistryObject<Enchantment> WRATH_OF_ZEUS =
             ENCHANTMENTS.register("wrath_of_zeus",
                     () -> new WrathOfZeusEnchantment(Enchantment.Rarity.RARE,
-                            EnchantmentCategory.BOW, EquipmentSlot.MAINHAND));
+                            EnchantmentCategory.WEAPON, EquipmentSlot.MAINHAND));
 
     public static void register(IEventBus eventBus) {
         ENCHANTMENTS.register(eventBus);

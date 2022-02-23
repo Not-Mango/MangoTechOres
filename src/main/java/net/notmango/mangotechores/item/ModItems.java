@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.notmango.mangotechores.MangoTechOres;
+import net.notmango.mangotechores.fluid.ModFluids;
 import net.notmango.mangotechores.item.custom.ModArmorItem;
 
 import javax.annotation.Nonnull;
@@ -112,6 +113,10 @@ public class ModItems {
     public static final RegistryObject<Item> APATITE_BOOTS = ITEMS.register("apatite_boots",
             () -> new ArmorItem(ModArmorMaterials.APATITE, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> OIL_BUCKET = ITEMS.register("oil_bucket",
+            () -> new BucketItem(ModFluids.OIL_FLUID,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_BLOCKS).durability(500)));
 
 
     public static void register(IEventBus eventBus) {

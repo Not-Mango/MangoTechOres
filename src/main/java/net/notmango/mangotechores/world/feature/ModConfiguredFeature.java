@@ -28,11 +28,11 @@ public class ModConfiguredFeature {
                     .defaultBlockState()));
 
     public static final ConfiguredFeature<?, ?> APATITE_ORE = FeatureUtils.register("apatite_ore",
-            Feature.ORE.configured(new OreConfiguration(OVERWORLD_APATITE_ORE, 9)));
+            Feature.ORE.configured(new OreConfiguration(OVERWORLD_APATITE_ORE, 5)));
 
     public static final ConfiguredFeature<?, ?> AQUAMARINE_ORE = FeatureUtils.register("aquamarine_ore",
-            Feature.ORE.configured(new OreConfiguration(OVERWORLD_AQUAMARINE_ORE, 9)));
+            Feature.ORE.configured(new OreConfiguration(OVERWORLD_AQUAMARINE_ORE, 5)));
 
     public static final ConfiguredFeature<?, ?> TOPAZ_ORE = FeatureUtils.register("topaz_ore",
-            Feature.ORE.configured(new OreConfiguration(OVERWORLD_TOPAZ_ORE, 9)));
+            Feature.ORE.configured(new OreConfiguration(OVERWORLD_TOPAZ_ORE, 5)));
 }
