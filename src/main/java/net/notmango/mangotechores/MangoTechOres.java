@@ -14,6 +14,7 @@ import net.notmango.mangotechores.enchantment.ModEnchantment;
 import net.notmango.mangotechores.fluid.ModFluids;
 import net.notmango.mangotechores.item.ModItems;
 
+import net.notmango.mangotechores.recipe.ModRecipes;
 import net.notmango.mangotechores.screen.CompoundFurnaceScreen;
 import net.notmango.mangotechores.screen.ModMenuTypes;
 import org.apache.logging.log4j.LogManager;
@@ -29,6 +30,7 @@ public class MangoTechOres
 
     public MangoTechOres() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        eventBus.addListener(this::clientSetup);
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
@@ -38,6 +40,8 @@ public class MangoTechOres
 
         ModBlockEntities.register(eventBus);
         ModMenuTypes.register(eventBus);
+
+        ModRecipes.register(eventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

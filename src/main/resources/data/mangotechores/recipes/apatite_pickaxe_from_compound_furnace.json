@@ -1,0 +1,14 @@
+{
+  "type": "mangotechores:compound_smelting",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "mangotechores:apatite"
+    }
+  ],
+  "output": {
+    "item": "mangotechores:apatite_pickaxe"
+  }
+}
