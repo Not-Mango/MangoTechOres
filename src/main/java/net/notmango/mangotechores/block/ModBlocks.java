@@ -14,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.notmango.mangotechores.MangoTechOres;
+import net.notmango.mangotechores.block.custom.CompoundFurnaceBlock;
 import net.notmango.mangotechores.item.ModCreativeModTab;
 import net.notmango.mangotechores.item.ModItems;
 
@@ -77,6 +78,11 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()),
             ModCreativeModTab.MANGO_BLOCKS);
 
+
+    public static final RegistryObject<Block> COMPOUND_FURNACE = registerBlock("compound_furnace",
+            () -> new CompoundFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
+                    .noOcclusion()),
+            ModCreativeModTab.MANGO_ORES);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                      CreativeModeTab tab) {

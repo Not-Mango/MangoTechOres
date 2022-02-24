@@ -3,6 +3,7 @@
   "item.mangotechores.tin_dust": "Tin Dust",
   "item.mangotechores.bronze_ingot": "Bronze Ingot",
   "item.mangotechores.ruby_ingot": "Ruby Ingot",
+  "item.mangotechores.coal_chunk": "Coal Chunk",
 
   "item.mangotechores.aquamarine": "Aquamarine",
   "item.mangotechores.apatite": "Apatite",
@@ -46,6 +47,8 @@
   "block.mangotechores.topaz_ore": "Topaz Ore",
   "block.mangotechores.deepslate_topaz_ore": "Deepslate Topaz Ore",
   "block.mangotechores.topaz_block": "Topaz Block",
+
+  "block.mangotechores.compound_furnace": "Compound Furnace",
 
   "itemGroup.mangotechtab":"Mango Tech Blocks",
   "itemGroup.mangotechtab2":"Mango Tech Ores",

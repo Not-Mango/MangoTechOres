@@ -37,7 +37,7 @@ public class CompoundFurnaceBlockEntity extends BlockEntity implements MenuProvi
 
     private LazyOptional<IItemHandler> lazyItemHandler = LazyOptional.empty();
 
-    public CompoundFurnaceBlockEntity( BlockPos pWorldPosition, BlockState pBlockState) {
+    public CompoundFurnaceBlockEntity(BlockPos pWorldPosition, BlockState pBlockState) {
         super(ModBlockEntities.COMPOUND_FURNACE.get(), pWorldPosition, pBlockState);
     }
 
@@ -49,10 +49,10 @@ public class CompoundFurnaceBlockEntity extends BlockEntity implements MenuProvi
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(int pContainerId, Inventory pInventory, Player pPlayer) {
-        return new CompoundFurnaceMenu(pContainerId, pInventory, this);
+        return new CompoundFurnaceMenu(pContainerId, pInventory,this);
     }
 
-    @NotNull
+    @Nonnull
     @Override
     public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> cap, @javax.annotation.Nullable Direction side) {
         if (cap == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY) {
@@ -69,7 +69,7 @@ public class CompoundFurnaceBlockEntity extends BlockEntity implements MenuProvi
     }
 
     @Override
-    public void invalidateCaps() {
+    public void invalidateCaps()  {
         super.invalidateCaps();
         lazyItemHandler.invalidate();
     }
@@ -89,7 +89,7 @@ public class CompoundFurnaceBlockEntity extends BlockEntity implements MenuProvi
     public void drops() {
         SimpleContainer inventory = new SimpleContainer(itemHandler.getSlots());
         for (int i = 0; i < itemHandler.getSlots(); i++) {
-            inventory.setItem(i, itemHandler.getStackInSlot(1));
+            inventory.setItem(i, itemHandler.getStackInSlot(i));
         }
 
         Containers.dropContents(this.level, this.worldPosition, inventory);
@@ -106,12 +106,12 @@ public class CompoundFurnaceBlockEntity extends BlockEntity implements MenuProvi
         entity.itemHandler.extractItem(1, 1, false);
 
         entity.itemHandler.setStackInSlot(3, new ItemStack(ModItems.APATITE_AXE.get(),
-                entity.itemHandler.getStackInSlot(3).getCount() +1 ));
+                entity.itemHandler.getStackInSlot(3).getCount() + 1));
     }
 
     private static boolean hasRecipe(CompoundFurnaceBlockEntity entity) {
-        boolean hasItemInSecondSlot = entity.itemHandler.getStackInSlot(0).getItem() == ModItems.APATITE.get();
-        boolean hasItemInFirstSlot = entity.itemHandler.getStackInSlot(1).getItem() == ModItems.COAL_CHUNK.get();
+        boolean hasItemInSecondSlot = entity.itemHandler.getStackInSlot(0).getItem() == ModItems.COAL_CHUNK.get();
+        boolean hasItemInFirstSlot = entity.itemHandler.getStackInSlot(1).getItem() == ModItems.APATITE.get();
 
         return hasItemInFirstSlot && hasItemInSecondSlot;
     }

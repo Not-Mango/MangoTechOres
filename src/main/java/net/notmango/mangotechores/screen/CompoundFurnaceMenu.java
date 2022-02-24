@@ -26,7 +26,7 @@ public class CompoundFurnaceMenu extends AbstractContainerMenu {
 
     public CompoundFurnaceMenu(int windowId, Inventory inv, BlockEntity entity) {
         super(ModMenuTypes.COMPOUND_FURNACE_MENU.get(), windowId);
-        checkContainerSize(inv, 3);
+        checkContainerSize(inv, 4);
         blockEntity = ((CompoundFurnaceBlockEntity) entity);
         this.level = inv.player.level;
 
@@ -41,6 +41,13 @@ public class CompoundFurnaceMenu extends AbstractContainerMenu {
         });
     }
 
+    // CREDIT GOES TO: diesieben07 | https://github.com/diesieben07/SevenCommons
+    // must assign a slot number to each of the slots used by the GUI.
+    // For this container, we can see both the tile inventory's slots as well as the player inventory slots and the hotbar.
+    // Each time we add a Slot to the container, it automatically increases the slotIndex, which means
+    //  0 - 8 = hotbar slots (which will map to the InventoryPlayer slot numbers 0 - 8)
+    //  9 - 35 = player inventory slots (which map to the InventoryPlayer slot numbers 9 - 35)
+    //  36 - 44 = TileInventory slots, which map to our TileEntity slot numbers 0 - 8)
     private static final int HOTBAR_SLOT_COUNT = 9;
     private static final int PLAYER_INVENTORY_ROW_COUNT = 3;
     private static final int PLAYER_INVENTORY_COLUMN_COUNT = 9;
