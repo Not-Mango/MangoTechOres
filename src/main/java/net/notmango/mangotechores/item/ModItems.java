@@ -9,6 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.notmango.mangotechores.MangoTechOres;
 import net.notmango.mangotechores.fluid.ModFluids;
+import net.notmango.mangotechores.item.custom.CoalChunkItem;
 import net.notmango.mangotechores.item.custom.ModArmorItem;
 
 import javax.annotation.Nonnull;
@@ -117,6 +118,10 @@ public class ModItems {
     public static final RegistryObject<Item> OIL_BUCKET = ITEMS.register("oil_bucket",
             () -> new BucketItem(ModFluids.OIL_FLUID,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_BLOCKS).durability(500)));
+
+    public static final RegistryObject<Item> COAL_CHUNK = ITEMS.register("coal_chunk",
+            () -> new CoalChunkItem(new Item.Properties().tab(ModCreativeModTab.MANGO_INGOTS)));
+
 
 
     public static void register(IEventBus eventBus) {
