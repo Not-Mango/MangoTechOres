@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mangotechores:block/compound_furnace" },
+    "facing=east": { "model": "mangotechores:block/compound_furnace", "y": 90 },
+    "facing=south": { "model": "mangotechores:block/compound_furnace", "y": 180 },
+    "facing=west": { "model": "mangotechores:block/compound_furnace", "y": 270 }
+  }
+}
