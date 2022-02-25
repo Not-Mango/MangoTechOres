@@ -32,6 +32,11 @@
   "item.mangotechores.apatite_leggings" : "Apatite Leggings",
   "item.mangotechores.apatite_boots" : "Apatite Boots",
 
+  "item.mangotechores.topaz_helmet" : "Topaz Helmet",
+  "item.mangotechores.topaz_chestplate" : "Topaz Chestplate",
+  "item.mangotechores.topaz_leggings" : "Topaz Leggings",
+  "item.mangotechores.topaz_boots" : "Topaz Boots",
+
   "item.mangotechores.oil_bucket" : "Oil Bucket",
 
   "block.mangotechores.tin_ore": "Tin Ore",

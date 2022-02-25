@@ -35,7 +35,7 @@ public class ModFluids {
     public static final ForgeFlowingFluid.Properties OIL_PROPERTIES = new ForgeFlowingFluid.Properties(
             () -> OIL_FLUID.get(), () -> OIL_FLOWING.get(), FluidAttributes.builder(WATER_STILL_RL, WATER_FLOWING_RL)
             .density(15).luminosity(1).viscosity(10).sound(SoundEvents.BUCKET_FILL_LAVA).overlay(WATER_OVERLAY_RL)
-            .color(202020)).slopeFindDistance(2).levelDecreasePerBlock(2)
+            .color(0xf2000003)).slopeFindDistance(2).levelDecreasePerBlock(2)
             .block(() -> ModFluids.OIL_BLOCK.get()).bucket(() -> ModItems.OIL_BUCKET.get());
 
     public static final RegistryObject<LiquidBlock> OIL_BLOCK = ModBlocks.BLOCKS.register("oil",

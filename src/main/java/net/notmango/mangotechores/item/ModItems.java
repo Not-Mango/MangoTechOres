@@ -114,7 +114,23 @@ public class ModItems {
     public static final RegistryObject<Item> APATITE_BOOTS = ITEMS.register("apatite_boots",
             () -> new ArmorItem(ModArmorMaterials.APATITE, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+    
+    public static final RegistryObject<Item> TOPAZ_HELMET = ITEMS.register("topaz_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
 
+    public static final RegistryObject<Item> TOPAZ_CHESTPLATE = ITEMS.register("topaz_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> TOPAZ_LEGGINGS = ITEMS.register("topaz_leggings",
+            () -> new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+
+    public static final RegistryObject<Item> TOPAZ_BOOTS = ITEMS.register("topaz_boots",
+            () -> new ArmorItem(ModArmorMaterials.TOPAZ, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModTab.MANGO_TOOLS)));
+    
     public static final RegistryObject<Item> OIL_BUCKET = ITEMS.register("oil_bucket",
             () -> new BucketItem(ModFluids.OIL_FLUID,
                     new Item.Properties().tab(ModCreativeModTab.MANGO_BLOCKS).durability(500)));
