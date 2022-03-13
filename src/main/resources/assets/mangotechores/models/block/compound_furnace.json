@@ -1,7 +1,5 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:blast_furnace",
-	"texture_size": [64, 64],
+	"texture_size": [16, 16],
 	"textures": {
 		"0": "mangotechores:machines/compound_furnace",
 		"particle": "mangotechores:machines/compound_furnace"
@@ -22,30 +20,32 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 0, 45],
-			"translation": [0, 2.5, 1],
-			"scale": [-0.3, -0.3, -0.3]
+			"rotation": [75, 45, -25],
+			"translation": [0, 1.25, 0],
+			"scale": [0.35, 0.35, 0.35]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [0, 0, -135],
-			"translation": [0, 2.5, 1],
-			"scale": [0.3, 0.3, 0.3]
+			"rotation": [75, 45, -25],
+			"translation": [0, 1.25, 0],
+			"scale": [0.35, 0.35, 0.35]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, -50, 0],
+			"rotation": [0, 135, 0],
 			"translation": [0, 0, 0.5],
-			"scale": [0.3, 0.3, 0.3]
+			"scale": [0.35, 0.35, 0.35]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, -50, 0],
-			"translation": [0, 0, 0.5],
-			"scale": [0.3, 0.3, 0.3]
+			"rotation": [0, 40, 0],
+			"translation": [0, 0, -0.25],
+			"scale": [0.35, 0.35, 0.35]
 		},
 		"ground": {
-			"scale": [0.3, 0.3, 0.3]
+			"scale": [0.35, 0.35, 0.35]
 		},
 		"gui": {
-			"scale": [0.5, 0.5, 0.5]
+			"rotation": [25, -135, 0],
+			"scale": [0.65, 0.65, 0.65]
+
 		},
 		"fixed": {
 			"scale": [0.5, 0.5, 0.5]

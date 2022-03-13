@@ -9,6 +9,8 @@
     }
   ],
   "output": {
-    "item": "mangotechores:apatite_pickaxe"
+    "item": "mangotechores:apatite_pickaxe",
+    "experience": 0.0,
+    "cookingtime": 200
   }
 }

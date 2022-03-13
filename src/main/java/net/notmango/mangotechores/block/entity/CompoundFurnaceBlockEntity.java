@@ -23,7 +23,6 @@ import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
-import net.notmango.mangotechores.item.ModItems;
 import net.notmango.mangotechores.recipe.CompoundFurnaceRecipe;
 import net.notmango.mangotechores.screen.CompoundFurnaceMenu;
 import org.jetbrains.annotations.NotNull;
