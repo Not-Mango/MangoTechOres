@@ -33,4 +33,11 @@ public class ModCreativeModTab {
             return new ItemStack(ModItems.APATITE_AXE.get());
         }
     };
+
+    public static final CreativeModeTab MANGO_MACHINES = new CreativeModeTab("mangotechtab5") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModBlocks.COMPOUND_FURNACE.get());
+        }
+    };
 }
