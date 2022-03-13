@@ -40,7 +40,8 @@
   "item.mangotechores.oil_bucket" : "Oil Bucket",
 
   "block.mangotechores.tin_ore": "Tin Ore",
-  
+  "block.mangotechores.deepslate_tin_ore": "Deepslate Tin Ore",
+
   "block.mangotechores.apatite_ore": "Apatite Ore",
   "block.mangotechores.deepslate_apatite_ore": "Deepslate Apatite Ore",
   "block.mangotechores.apatite_block": "Apatite Block",

@@ -30,6 +30,12 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()),
             ModCreativeModTab.MANGO_ORES);
 
+    public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).color(MaterialColor.DEEPSLATE)
+                    .strength(3f, 4.5f).sound(SoundType.DEEPSLATE)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModTab.MANGO_ORES);
+
 
     public static final RegistryObject<Block> APATITE_ORE = registerBlock("apatite_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f, 3f)

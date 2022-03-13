@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "mangotechores:tin_ore",
+    "mangotechores:deepslate_tin_ore"
   ]
 }
