@@ -1,5 +1,6 @@
 package net.notmango.mangotechores.block;
 
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -25,26 +26,31 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, MangoTechOres.MOD_ID);
 
+
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f, 3f)
                     .requiresCorrectToolForDrops()),
             ModCreativeModTab.MANGO_ORES);
-
     public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).color(MaterialColor.DEEPSLATE)
                     .strength(3f, 4.5f).sound(SoundType.DEEPSLATE)
                     .requiresCorrectToolForDrops()),
             ModCreativeModTab.MANGO_ORES);
+    public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModTab.MANGO_BLOCKS);
 
 
     public static final RegistryObject<Block> APATITE_ORE = registerBlock("apatite_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f, 3f)
-                    .requiresCorrectToolForDrops()),
+                    .requiresCorrectToolForDrops(), UniformInt.of(2,5)),
             ModCreativeModTab.MANGO_ORES);
     public static final RegistryObject<Block> DEEPSLATE_APATITE_ORE = registerBlock("deepslate_apatite_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).color(MaterialColor.DEEPSLATE)
                     .strength(3f, 4.5f).sound(SoundType.DEEPSLATE)
-                    .requiresCorrectToolForDrops()),
+                    .requiresCorrectToolForDrops(), UniformInt.of(2,5)),
             ModCreativeModTab.MANGO_ORES);
     public static final RegistryObject<Block> APATITE_BLOCK = registerBlock("apatite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
@@ -55,12 +61,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> AQUAMARINE_ORE = registerBlock("aquamarine_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f, 3f)
-                    .requiresCorrectToolForDrops()),
+                    .requiresCorrectToolForDrops(), UniformInt.of(2,5)),
             ModCreativeModTab.MANGO_ORES);
     public static final RegistryObject<Block> DEEPSLATE_AQUAMARINE_ORE = registerBlock("deepslate_aquamarine_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).color(MaterialColor.DEEPSLATE)
                     .strength(3f, 4.5f).sound(SoundType.DEEPSLATE)
-                    .requiresCorrectToolForDrops()),
+                    .requiresCorrectToolForDrops(), UniformInt.of(2,5)),
             ModCreativeModTab.MANGO_ORES);
     public static final RegistryObject<Block> AQUAMARINE_BLOCK = registerBlock("aquamarine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
@@ -71,12 +77,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TOPAZ_ORE = registerBlock("topaz_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f, 3f)
-                    .requiresCorrectToolForDrops()),
+                    .requiresCorrectToolForDrops(), UniformInt.of(2,5)),
             ModCreativeModTab.MANGO_ORES);
     public static final RegistryObject<Block> DEEPSLATE_TOPAZ_ORE = registerBlock("deepslate_topaz_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).color(MaterialColor.DEEPSLATE)
                     .strength(3f, 4.5f).sound(SoundType.DEEPSLATE)
-                    .requiresCorrectToolForDrops()),
+                    .requiresCorrectToolForDrops(), UniformInt.of(2,5)),
             ModCreativeModTab.MANGO_ORES);
     public static final RegistryObject<Block> TOPAZ_BLOCK = registerBlock("topaz_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)

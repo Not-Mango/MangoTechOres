@@ -22,5 +22,5 @@ public class ModPlacedFeatures {
 
     public static final PlacedFeature TIN_ORE_PLACED = PlacementUtils.register("topaz_ore_placed",
             ModConfiguredFeature.TIN_ORE.placed(ModOrePlacement.commonOrePlacement(5,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(180)))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-30), VerticalAnchor.aboveBottom(240)))));
 }

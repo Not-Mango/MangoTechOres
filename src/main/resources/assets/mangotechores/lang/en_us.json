@@ -1,5 +1,6 @@
 {
   "item.mangotechores.tin_ingot": "Tin Ingot",
+  "item.mangotechores.tin_nugget": "Tin Nugget",
   "item.mangotechores.tin_dust": "Tin Dust",
   "item.mangotechores.bronze_ingot": "Bronze Ingot",
   "item.mangotechores.ruby_ingot": "Ruby Ingot",
@@ -41,6 +42,7 @@
 
   "block.mangotechores.tin_ore": "Tin Ore",
   "block.mangotechores.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.mangotechores.tin_block": "Tin Block",
 
   "block.mangotechores.apatite_ore": "Apatite Ore",
   "block.mangotechores.deepslate_apatite_ore": "Deepslate Apatite Ore",

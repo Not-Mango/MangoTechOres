@@ -44,5 +44,5 @@ public class ModConfiguredFeature {
             Feature.ORE.configured(new OreConfiguration(OVERWORLD_TOPAZ_ORE, 4)));
 
     public static final ConfiguredFeature<?, ?> TIN_ORE = FeatureUtils.register("tin_ore",
-            Feature.ORE.configured(new OreConfiguration(OVERWORLD_TIN_ORE, 5)));
+            Feature.ORE.configured(new OreConfiguration(OVERWORLD_TIN_ORE, 4)));
 }

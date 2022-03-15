@@ -21,6 +21,9 @@ public class ModItems {
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_INGOTS)));
 
+    public static final RegistryObject<Item> TIN_NUGGET = ITEMS.register("tin_nugget",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_INGOTS)));
+
     public static final RegistryObject<Item> TIN_DUST = ITEMS.register("tin_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.MANGO_INGOTS)));
 

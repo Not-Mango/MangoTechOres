@@ -1,0 +1,17 @@
+{
+  "type": "mangotechores:compound_smelting",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "mangotechores:deepslate_tin_ore"
+    }
+  ],
+  "output": {
+    "item": "mangotechores:tin_dust",
+    "experience": 0.7,
+    "cookingtime": 200,
+    "count": 2
+  }
+}
