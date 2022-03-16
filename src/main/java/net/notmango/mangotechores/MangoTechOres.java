@@ -17,6 +17,7 @@ import net.notmango.mangotechores.item.ModItems;
 import net.notmango.mangotechores.recipe.ModRecipes;
 import net.notmango.mangotechores.screen.CompoundFurnaceScreen;
 import net.notmango.mangotechores.screen.ModMenuTypes;
+import net.notmango.mangotechores.screen.ObliteratorScreen;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -53,7 +54,9 @@ public class MangoTechOres
         ItemBlockRenderTypes.setRenderLayer(ModFluids.OIL_FLOWING.get(), RenderType.translucent());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.COMPOUND_FURNACE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.OBLITERATOR.get(), RenderType.cutout());
 
         MenuScreens.register(ModMenuTypes.COMPOUND_FURNACE_MENU.get(), CompoundFurnaceScreen::new);
+        MenuScreens.register(ModMenuTypes.OBLITERATOR_MENU.get(), ObliteratorScreen::new);
     }
 }

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mangotechores:block/obliterator" },
+    "facing=east": { "model": "mangotechores:block/obliterator", "y": 90 },
+    "facing=south": { "model": "mangotechores:block/obliterator", "y": 180 },
+    "facing=west": { "model": "mangotechores:block/obliterator", "y": 270 }
+  }
+}

@@ -16,6 +16,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.notmango.mangotechores.MangoTechOres;
 import net.notmango.mangotechores.block.custom.CompoundFurnaceBlock;
+import net.notmango.mangotechores.block.custom.ObliteratorBlock;
 import net.notmango.mangotechores.item.ModCreativeModTab;
 import net.notmango.mangotechores.item.ModItems;
 
@@ -25,7 +26,6 @@ public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, MangoTechOres.MOD_ID);
-
 
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f, 3f)
@@ -91,10 +91,14 @@ public class ModBlocks {
             ModCreativeModTab.MANGO_BLOCKS);
 
 
+
     public static final RegistryObject<Block> COMPOUND_FURNACE = registerBlock("compound_furnace",
             () -> new CompoundFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
                     .noOcclusion()),
             ModCreativeModTab.MANGO_MACHINES);
+
+    public static final RegistryObject<Block> OBLITERATOR = registerBlock("obliterator",
+            () -> new ObliteratorBlock(BlockBehaviour.Properties.of(Material.METAL)), ModCreativeModTab.MANGO_MACHINES);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                      CreativeModeTab tab) {

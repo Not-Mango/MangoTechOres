@@ -17,6 +17,12 @@ public class ModBlockEntities {
                     BlockEntityType.Builder.of(CompoundFurnaceBlockEntity::new,
                             ModBlocks.COMPOUND_FURNACE.get()).build(null));
 
+
+    public static final RegistryObject<BlockEntityType<ObliteratorBlockEntity>> OBLITERATOR =
+            BLOCK_ENTITIES.register("obliterator", () ->
+                    BlockEntityType.Builder.of(ObliteratorBlockEntity::new,
+                            ModBlocks.OBLITERATOR.get()).build(null));
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }

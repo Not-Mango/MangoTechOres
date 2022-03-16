@@ -1,9 +1,6 @@
 {
-  "type": "mangotechores:compound_smelting",
+  "type": "mangotechores:obliterator_smelting",
   "ingredients": [
-    {
-      "item": "minecraft:flint"
-    },
     {
       "item": "mangotechores:deepslate_tin_ore"
     }

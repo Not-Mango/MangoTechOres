@@ -1,0 +1,11 @@
+{
+  "type": "mangotechores:obliterating",
+  "ingredient":
+    {
+      "item": "mangotechores:tin_ore"
+    },
+  "output": {
+    "item": "mangotechores:tin_dust",
+    "experience": 0.7
+  }
+}

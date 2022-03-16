@@ -17,6 +17,10 @@ public class ModMenuTypes {
     public static final RegistryObject<MenuType<CompoundFurnaceMenu>> COMPOUND_FURNACE_MENU =
             registerMenuType(CompoundFurnaceMenu::new, "compound_furnace_menu");
 
+    public static final RegistryObject<MenuType<ObliteratorMenu>> OBLITERATOR_MENU =
+            registerMenuType(ObliteratorMenu::new, "obliterator_menu");
+
+
 
     private static <T extends AbstractContainerMenu> RegistryObject<MenuType<T>> registerMenuType(IContainerFactory<T> factory,
                                                                                                   String name) {
