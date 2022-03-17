@@ -15,6 +15,9 @@ public class ModRecipes {
     public static final RegistryObject<RecipeSerializer<CompoundFurnaceRecipe>> COMPOUND_FURNACE_SERIALIZER =
             SERIALIZERS.register("compound_smelting", () -> CompoundFurnaceRecipe.Serializer.INSTANCE);
 
+    public static final RegistryObject<RecipeSerializer<ObliteratorRecipe>> OBLITERATOR_SERIALIZER =
+            SERIALIZERS.register("obliterating", () -> ObliteratorRecipe.Serializer.INSTANCE);
+
     public static void register(IEventBus eventBus) {
         SERIALIZERS.register(eventBus);
         Registry.register(Registry.RECIPE_TYPE, CompoundFurnaceRecipe.Type.ID, CompoundFurnaceRecipe.Type.INSTANCE);

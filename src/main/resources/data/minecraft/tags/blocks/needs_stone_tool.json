@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "mangotechores:tin_ore",
-    "mangotechores:deepslate_tin_ore"
+    "mangotechores:deepslate_tin_ore",
+    "mangotechores:tin_block",
+    "mangotechores:compound_furnace",
+    "mangotechores:obliterator"
   ]
 }

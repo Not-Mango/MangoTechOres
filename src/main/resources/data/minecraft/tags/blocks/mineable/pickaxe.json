@@ -3,6 +3,8 @@
   "values": [
     "mangotechores:tin_ore",
     "mangotechores:deepslate_tin_ore",
+    "mangotechores:tin_block",
+
 
     "mangotechores:apatite_ore",
     "mangotechores:deepslate_apatite_ore",
@@ -14,6 +16,9 @@
     
     "mangotechores:topaz_ore",
     "mangotechores:deepslate_topaz_ore",
-    "mangotechores:topaz_block"
+    "mangotechores:topaz_block",
+
+    "mangotechores:compound_furnace",
+    "mangotechores:obliterator"
   ]
 }

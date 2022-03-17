@@ -94,11 +94,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COMPOUND_FURNACE = registerBlock("compound_furnace",
             () -> new CompoundFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
-                    .noOcclusion()),
+                    .noOcclusion().requiresCorrectToolForDrops()),
             ModCreativeModTab.MANGO_MACHINES);
 
     public static final RegistryObject<Block> OBLITERATOR = registerBlock("obliterator",
-            () -> new ObliteratorBlock(BlockBehaviour.Properties.of(Material.METAL)), ModCreativeModTab.MANGO_MACHINES);
+            () -> new ObliteratorBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
+                    .noOcclusion().requiresCorrectToolForDrops()),
+    ModCreativeModTab.MANGO_MACHINES);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                      CreativeModeTab tab) {
