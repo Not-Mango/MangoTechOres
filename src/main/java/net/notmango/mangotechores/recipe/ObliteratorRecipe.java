@@ -27,11 +27,7 @@ public class ObliteratorRecipe implements Recipe<SimpleContainer> {
 
     @Override
     public boolean matches(SimpleContainer pContainer, net.minecraft.world.level.Level pLevel) {
-        if(recipeItems.get(0).test(pContainer.getItem(1))) {
-            return recipeItems.get(1).test(pContainer.getItem(2));
-        }
-
-        return false;
+        return recipeItems.get(0).test(pContainer.getItem(1));
     }
 
     @Override
